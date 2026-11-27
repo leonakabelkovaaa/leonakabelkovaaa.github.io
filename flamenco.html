@@ -3,18 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <title>Svět flamenca</title>
+    <style>
+        /* Základní nastavení stránky */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a; /* Tmavé pozadí */
+            color: #f4f4f4; /* Světlý text */
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            border-top: 5px solid #d90429; /* Výrazná červená linka nahoře */
+        }
+
+        h1 {
+            color: #ef233c;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #ffccd5;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        /* Rámeček pro zajímavost */
+        .zajimavost {
+            background-color: #2b2d42;
+            border-left: 4px solid #ef233c;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* Stylování tabulky */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+
+        th {
+            background-color: #d90429;
+            color: white;
+        }
+
+        /* Odkaz zpět jako tlačítko */
+        .tlacitko-zpet {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #ef233c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .tlacitko-zpet:hover {
+            background-color: #b5179e;
+        }
+    </style>
 </head>
 <body>
+
     <h1>Flamenco: Vášeň ze Španělska</h1>
-    <p>Flamenco není jen tanec – je to spojení zpěvu (cante), kytary (toque) a tance (baile), které vzniklo v Andalusii.</p>
-    
-    <h2>Co tu brzy najdete:</h2>
+    <p>Flamenco není jen tanec – je to hluboký emocionální projev, který spojuje zpěv, hru na kytaru a tanec. Vzniklo v jižním Španělsku (Andalusii) a od roku 2010 je zapsáno na seznamu nehmotného dědictví UNESCO.</p>
+
+    <div class="zajimavost">
+        <strong>Věděli jste, že...</strong><br>
+        Většina tradičního flamenca se vůbec netančí podle pevných choreografií? Tanečník, kytarista a zpěvák spolu přímo na pódiu improvizují a reagují jeden na druhého pomocí očního kontaktu a rytmu.
+    </div>
+
+    <h2>Tři hlavní pilíře flamenca</h2>
+    <table>
+        <tr>
+            <th>Španělský název</th>
+            <th>Český význam</th>
+            <th>Popis</th>
+        </tr>
+        <tr>
+            <td><strong>Cante</strong></td>
+            <td>Zpěv</td>
+            <td>Srdce celého flamenca, často vyjadřuje hluboký smutek, radost nebo vášeň.</td>
+        </tr>
+        <tr>
+            <td><strong>Toque</strong></td>
+            <td>Kytara</td>
+            <td>Specifická hra na flamenkovou kytaru včetně rytmického klepání na její tělo (golpe).</td>
+        </tr>
+        <tr>
+            <td><strong>Baile</strong></td>
+            <td>Tanec</td>
+            <td>Výrazný pohyb rukou (floreo), hrdé držení těla a rytmické podupy (zapateado).</td>
+        </tr>
+    </table>
+
+    <h2>Co ještě na stránku přibude</h2>
     <ul>
-        <li>Historii a původ flamenca</li>
-        <li>Základní prvky (podupy, tleskání a práce s vějířem)</li>
-        <li>Slavné tanečníky a kytaristy</li>
+        <li>Galerie typických šatů (<em>traje de flamenca</em>) a rekvizit (vějíř, šátek, kastaněty)</li>
+        <li>Ukázky slavných stylů (např. veselá <em>Buleria</em> nebo vážná <em>Soleá</em>)</li>
+        <li>Video ukázka živého vystoupení</li>
     </ul>
 
-    <a href="index.html">← Zpět na domovskou stránku</a>
+    <a href="index.html" class="tlacitko-zpet">← Zpět na domovskou stránku</a>
+
 </body>
 </html>
